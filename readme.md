@@ -1,3 +1,11 @@
-docker build -t ubuntu-elixir .
+# Ubuntu Elixir
 
-docker run --rm ubuntu-elixir
+A container for building Ubuntu and Elixir
+
+## Build
+
+    docker build -t ubuntu-elixir .
+
+## Run
+
+    docker run --rm ubuntu-elixir
