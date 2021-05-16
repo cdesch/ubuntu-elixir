@@ -14,8 +14,10 @@ A container for building Ubuntu and Elixir.
     docker run --rm ubuntu-elixir elixir -v
 
 
-
-docker push ubuntu-elixir
+## Publish
+    
+    docker build -t cdesch/ubuntu-elixir .
+    docker push cdesch/ubuntu-elixir:latest
 
 
 https://kaiwern.com/posts/2020/06/20/building-elixir/phoenix-release-with-docker/
